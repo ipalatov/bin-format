@@ -1,0 +1,33 @@
+{
+  "name": "ipalatov/bin-format",
+  "description": "PHP library for converting an associative array with integers to binary format and back",
+  "type": "library",
+  "keywords": [
+    "binary",
+    "format",
+    "encode",
+    "decode",
+    "packing",
+    "unpacking",
+    "integer"
+  ],
+  "homepage": "https://github.com/ipalatov/bin-format",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Palatov",
+      "email": "ivan.s.palatov@gmail.com",
+      "role": "developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ipalatov\\BinFormat\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.2"
+  },
+  "repositories": [
+  ]
+}
